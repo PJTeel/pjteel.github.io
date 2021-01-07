@@ -1,0 +1,7 @@
+head { grid-area: title; }
+nav { grid-area: navigation; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+@media (max-width: 576px)
+.container {
