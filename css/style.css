@@ -1,3 +1,14 @@
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+    }    
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
+}
+
 main, header, section, aside, footer {
     margin: 0;
     padding: 20px;
@@ -10,20 +21,26 @@ main {
 }
 
 .header {
-    background: #03a9f4;
+    background: aquamarine;
+    color:black;
 }
 
 .section1 {
-    background: #d22b1f;
+    background: rgb(151, 150, 150);
+    color: black;
 }
 
 .section2 {
-    background: #129a22;
+    background: #a2e6e4;
+    flex: 1;
+    color:black;
 }
 
 .sidebar {
     border: 1px solid #000000;
-    background: #673ab7;
+    background: whitesmoke;
+    flex: 0 1 300px;
+    color:black;
 }
 
 .footer {
