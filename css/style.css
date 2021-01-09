@@ -13,7 +13,9 @@ main, header, section, aside, footer {
     margin: 0;
     padding: 20px;
     border: 1px solid #000000;
-    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt
+
 }
 
 main {
@@ -21,29 +23,64 @@ main {
 }
 
 .header {
+    font-family: 'Redressed', cursive;
     background: aquamarine;
     color:black;
+    font-size: 30pt;
 }
 
+.header h1 {
+    margin: 0;
+}
+
+.header div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+ 
 .section1 {
-    background: rgb(151, 150, 150);
+    background: grey;
     color: black;
 }
 
+.section1 h3 {
+    font-size: 18pt;
+    margin-top: 10pt;
+}
+
 .section2 {
+    
     background: #a2e6e4;
     flex: 1;
     color:black;
 }
+.section2 h4{
+    font-size: 18pt;
+    margin-top: 10pt;
+}
 
 .sidebar {
     border: 1px solid #000000;
-    background: whitesmoke;
     flex: 0 1 300px;
     color:black;
+    background-color: lightcyan;
+    }
+
+.sidebar p{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 10pt;
 }
 
 .footer {
     border: 1px solid #000000;
     background: #616161;
+    background-image: url('http://cdn.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112_960_720.jpg');
+    opacity: .6;
+    color: white;
 }
